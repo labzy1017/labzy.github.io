@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Lapzy's Cars</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="top">
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="AboutUs.html">About us</a>
+            <a href="Contactus.html">contact</a>
+            <a href="car.html">specs</a>
+            <a href="parts.html">Parts and repairs</a>
+        </div>
+    </div>
+	<main>
+		<section>
+			<h1>Contact Lapzy's Cars</h1>
+			<form action="submit-form.php" method="POST">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+				
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
+				
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Lapzy's Cars. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>
